@@ -52,3 +52,7 @@ a {
   cursor: pointer;
   text-decoration: none !important;
 }
+form {
+  max-width: 30rem;
+  margin: auto;
+}
