@@ -24,7 +24,6 @@ function Blogs() {
     );
     const data = await response.json();
     setModalInfo(data);
-    console.log(data);
   };
 
   useEffect(() => {
@@ -39,7 +38,6 @@ function Blogs() {
     return <div>loading</div>;
   }
 
-  console.log("info", info);
   return (
     <>
       <LightBox

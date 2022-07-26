@@ -2,7 +2,6 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 function BasicExample(props) {
-  console.log(props);
   const { id, name, img, category, url, info } = props.item;
   return (
     <Card style={{ width: "18rem" }} className="box">
