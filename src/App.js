@@ -16,6 +16,7 @@ const slide3 = require("../src/images/tech-enthusiast.png");
 function App() {
   return (
     <>
+      <h1>My Challenge</h1>
       <BootstrapCarousel />
       <h1>My Projects</h1>
       <div className="grid">

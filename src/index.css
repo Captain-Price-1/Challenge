@@ -56,3 +56,6 @@ form {
   max-width: 30rem;
   margin: auto;
 }
+.col-sm-12 h3 {
+  display: none;
+}
